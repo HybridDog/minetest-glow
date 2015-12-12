@@ -5,7 +5,7 @@ local light = 15
 
 minetest.register_node("glow:stone", {
 	description = "Glowing stone",
-	tile_images = {"glow_stone.png"},
+	tiles = {"glow_stone.png"},
 	light_source = light,
 	groups = {cracky=3},
 	sounds = default.node_sound_glass_defaults(),
@@ -13,7 +13,7 @@ minetest.register_node("glow:stone", {
 
 minetest.register_node("glow:lamp", {
 	description = "Lamp",
-	tile_images = {"glow_stone.png^glow_lamp_frame.png"},
+	tiles = {"glow_stone.png^glow_lamp_frame.png"},
 	light_source = light,
 	groups = {cracky=3},
 	sounds = default.node_sound_glass_defaults(),

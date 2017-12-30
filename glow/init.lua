@@ -1,7 +1,7 @@
 -- glow/init.lua
 -- mod by john and Zeg9
 
-local light = 15
+local light = 14
 
 minetest.register_node("glow:stone", {
 	description = "Glowing stone",
